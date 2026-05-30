@@ -1,0 +1,23 @@
+### Get all services
+GET http://localhost:8090/api/services
+
+### Get service by ID
+GET http://localhost:8090/api/services/1
+
+### Get services by label
+GET http://localhost:8090/api/services/label/1
+
+### Create service
+POST http://localhost:8090/api/services
+Content-Type: application/x-www-form-urlencoded
+
+name=Mixing&description=Professional mixing&basePrice=100&labelId=1
+
+### Update service
+PUT http://localhost:8090/api/services/1
+Content-Type: application/x-www-form-urlencoded
+
+name=Mixing Pro&description=Pro mixing service&basePrice=150
+
+### Delete service
+DELETE http://localhost:8090/api/services/1
