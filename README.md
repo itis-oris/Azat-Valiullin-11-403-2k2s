@@ -1,1 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/gYdPT_hR)
+MusicGateV2
+Суть проекта:
+Платформа, где артисты могут отправлять свои треки музыкальным лейблам на рассмотрение, а лейблы — просматривать заявки, прослушивать треки, анализировать их и принимать решение (approve/reject).
+
+Основные роли:
+
+ARTIST — загружает треки, выбирает лейбл и услугу, отслеживает статус заявок
+
+LABEL — создаёт услуги, просматривает заявки, прослушивает треки, проводит анализ, выносит решение
+
+Стек: Java 17, Spring Boot 3.2.5, Spring Security, Spring Data JPA, Freemarker, PostgreSQL, Redis, Docker.
